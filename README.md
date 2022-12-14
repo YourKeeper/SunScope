@@ -10,3 +10,5 @@
 ```
 
 SunScope is a tool that can grab the /etc/grafana/grafana.db, /etc/grafana/grafana.ini, or /etc/passwd file from a server running an instance of Grafana from v8.0.0-beta1 to v8.3.0. Simply put, fire it at a URL and specify which file you want, and it'll grab it for you. So easy, anyone could use it. Please use responsibly.
+
+This isn't the cleanest exploit code, I'll admit, but I wrote this from inspiration that I got while breaking into the Ambassador box on HackTheBox, and it's my first exploit I've written in Go.
